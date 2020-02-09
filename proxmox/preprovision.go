@@ -3,8 +3,8 @@ package proxmox
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/communicator/remote"
+	"github.com/Telmate/terraform-provider-proxmox/communicator"
+	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
 	"github.com/hashicorp/terraform/helper/schema"
 
 	"io"
