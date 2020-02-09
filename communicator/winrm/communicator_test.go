@@ -9,7 +9,7 @@ import (
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
 	"github.com/dylanmei/winrmtest"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
 
 func newMockWinRMServer(t *testing.T) *winrmtest.Remote {

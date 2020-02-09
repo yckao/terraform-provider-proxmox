@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
 
 // MockCommunicator is an implementation of Communicator that can be used for tests.

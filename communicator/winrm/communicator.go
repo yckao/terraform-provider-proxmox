@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	"github.com/masterzen/winrm"
 	"github.com/packer-community/winrmcp/winrmcp"
 )

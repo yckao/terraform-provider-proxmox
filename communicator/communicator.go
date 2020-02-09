@@ -11,7 +11,7 @@ import (
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
 	"github.com/Telmate/terraform-provider-proxmox/communicator/ssh"
 	"github.com/Telmate/terraform-provider-proxmox/communicator/winrm"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
 
 // Communicator is an interface that must be implemented by all communicators

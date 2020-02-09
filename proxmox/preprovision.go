@@ -5,7 +5,7 @@ import (
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator"
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 
 	"io"
 	"log"

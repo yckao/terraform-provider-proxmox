@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator/shared"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	"github.com/mitchellh/mapstructure"
 )
 

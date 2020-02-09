@@ -20,7 +20,7 @@ import (
 
 	"github.com/Telmate/terraform-provider-proxmox/communicator/remote"
 	"github.com/hashicorp/errwrap"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
 )
